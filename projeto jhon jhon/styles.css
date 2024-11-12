@@ -1,0 +1,227 @@
+/* styles.css */
+
+/* Resetando margens e padding padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo */
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo da barra de navegação */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black; /* Azul Energisa */
+    padding: 10px 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo da Energisa */
+.navbar .logo img {
+    height: 40px; /* Ajuste o tamanho conforme necessário */
+    width: auto;
+}
+
+/* Estilo dos links da barra */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efeito de hover nos links */
+.nav-links li a:hover {
+    color: #f5a623; /* Cor de destaque ao passar o mouse */
+    transform: scale(1.1);
+}
+
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Barra de navegação */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #030405;
+    padding: 10px 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo img {
+    height: 40px;
+    width: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #f5a623;
+}
+
+/* Seções principais */
+section {
+    position: relative;
+    padding: 100px 20px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* Imagem de fundo */
+.sobre {
+    background: url('imagem/imagem\ lampada.jpg') no-repeat center center/cover;
+}
+
+.produtos {
+    background: url('imagem/fotocity.jpg') no-repeat center center/cover;
+}
+
+.contato {
+    background: url('imagem/contato.jpg') no-repeat center center/cover;
+}
+
+/* Estilos do conteúdo */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+p {
+    font-size: 1.2rem;
+    color:#dedede;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.produto-item {
+    display: inline-block;
+    width: 30%;
+    margin: 0 15px;
+    text-align: left;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.produto-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Formulário de contato */
+.form-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-contato input,
+.form-contato textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.form-contato button {
+    background-color: #003f87;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-contato button:hover {
+    background-color: #f5a623;
+}
+
+/* Animações */
+.animate {
+    opacity: 0;
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.animate.fadeInUp {
+    transform: translateY(30px);
+}
+
+.animate.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Energisa - meu primeiro site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar">
+        <div class="logo">
+            <!-- Logo da Energisa -->
+            <a href="#"><img src="imagem/logo branco.png" alt="Logo Energisa"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="https://www.grupoenergisa.com.br/nossa-historia" target="_blank">Sobre</a></li>
+            <li><a href="https://www.grupoenergisa.com.br/tags/cataguases" target="_blank">Produtos</a></li>
+            <li><a href="https://cse.energisa.com.br/fale-conosco.html" target="_blank">Contato</a></li>
+        </ul>
+    </nav>
+
+
+ <!-- Seção Sobre -->
+ <section id="sobre" class="sobre">
+    <div class="container">
+        <h2 class="animate fadeInUp">Sobre a Energisa</h2>
+        <p class="animate fadeInUp">A Energisa é uma das maiores distribuidoras de energia elétrica do Brasil, fornecendo soluções sustentáveis para milhões de brasileiros.</p>
+        <p class="animate fadeInUp">Com mais de 100 anos de história, a Energisa está comprometida em fornecer energia com responsabilidade e eficiência.</p>
+    </div>
+</section>
+
+<!-- Seção Produtos -->
+<section id="produtos" class="produtos">
+    <div class="container">
+        <h2 class="animate fadeInUp">Produtos e Serviços</h2>
+        <div class="produto-item animate fadeInUp">
+            <img src="imagem/download.jpeg" alt="Energia Solar">
+            <h3>Energia Solar</h3>
+            <p>Oferecemos soluções em energia solar para empresas e residências, proporcionando economia e sustentabilidade.</p>
+        </div>
+        <div class="produto-item animate fadeInUp">
+            <img src="imagem/images.jpeg" alt="Geradores">
+            <h3>Geradores de Energia</h3>
+            <p>Produtos para geração de energia em locais remotos, garantindo a continuidade do fornecimento em situações críticas.</p>
+        </div>
+        <div class="produto-item animate fadeInUp">
+            <img src="imagem/energiaeolica.jpeg" alt="energia eólica ">
+            <h3>energia eólica</h3>
+            <p>Consultoria especializada para otimizar o consumo de energia e reduzir custos operacionais.</p>
+        </div>
+    </div>
+
+<!-- Seção Contato -->
+<section id="contato" class="contato">
+    <div class="container">
+        <h2 class="animate fadeInUp">Contato</h2>
+        <p class="animate fadeInUp">Entre em contato conosco para mais informações sobre nossos produtos e serviços.</p>
+        <div class="contato-info animate fadeInUp">
+            <p><strong>Email:</strong> contato@energisa.com.br</p>
+            <p><strong>Telefone:</strong> (31) 1234-5678</p>
+            <p><strong>Endereço:</strong> Rua da Energia, 123, Belo Horizonte - MG</p>
+        </div>
+
+        <form action="#" method="post" class="form-contato animate fadeInUp">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite sua mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
